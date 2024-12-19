@@ -14,5 +14,6 @@ mod tests {
     fn test_multiply() {
         assert_eq!(multiply(2, 2), 4);
         assert_eq!(multiply(-1, 1), -1);
+        assert_eq!(multiply(2, 0) , 0);
     }
 }
