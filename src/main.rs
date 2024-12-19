@@ -16,4 +16,3 @@ mod tests {
         assert_eq!(multiply(-1, 1), -1);
     }
 }
-
